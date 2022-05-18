@@ -1,11 +1,7 @@
-body {
-    text-align: center;
-  }
+body{
+  text-align: center;
+}
 
-  nav {
-    background-color: steelblue;
-    padding: 10px;
-  }
   #active {
     background-color: white;
     color: steelblue;
@@ -17,19 +13,38 @@ body {
 
   h1 {
     color: steelblue;
+    text-align: center;
+    
+
   }
   img {
-    width: 800px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
     border: 4px solid steelblue;
   }
   p {
-    padding: 10px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    
   }
   .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
   }
-  footer {
+
+  nav, footer{
     background-color: steelblue;
     color: white;
+    
+  }
+  footer p{
+    font-size: 20px;
+    margin: 20px auto;
+  }
+
+  a:hover{
+    background-color: white;
+    color: steelblue;
   }
