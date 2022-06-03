@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+
+#content{
+    max-width: 1500px;
+}
+.img img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 15px;
+
+}
+body{
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+.name{
+    text-align: center;
+    color: white;
+}
+.quote{
+    font-family: "Roboto", 'Rock Salt';
+    font-size: 30px;
+    color: white
+}
+ol{
+    color: solid black;
+    display: table;
+    margin: 0 auto;
+}
+.education{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+.education:hover{
+    color: black;
+}
+.home h3{
+    text-align: center;
+    color: white;
+}
+.quote h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
