@@ -15,7 +15,7 @@ main section{
 }
 body {
     background-color: #ffffff;
-    font-family: 'Roboto', 'Arial' 'Tahoma';
+    font-family: 'Roboto', 'Arial', 'Tahoma';
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -63,7 +63,7 @@ footer{
 .home-title{
     text-align: center;
     color: #435ca7;
-    font-family: 'Lato', 'Rock salt';
+    font-family: 'Lato', 'Rock salt', 'Impact';
     font-size: 2em;
     margin-top: 10px;
 }
