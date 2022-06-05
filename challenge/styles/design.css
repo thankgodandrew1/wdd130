@@ -12,23 +12,22 @@
 }
 body{
     background-color: pink;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    margin: 0;
 }
 .name{
     text-align: center;
     color: white;
 }
-.quote{
-    font-family: "Roboto", 'Rock Salt';
-    font-size: 30px;
-    color: white
+.edu-quote{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 ol{
     color: solid black;
     display: table;
     margin: 0 auto;
+    font-family: 'Georgia', 'Times New Roman', 'serif';
 }
 .education{
     text-align: center;
@@ -43,9 +42,19 @@ ol{
     text-align: center;
     color: white;
 }
-.quote h2{
+footer p{
+    width: 38%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    font-size: 1em;
     text-align: center;
+    margin-bottom: 35px;
 }
-footer{
+.quote p{
+    color: white;
+    font-size: 2em;
+    width: 28%;
+    margin: 35px auto;
     text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
