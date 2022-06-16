@@ -1,0 +1,29 @@
+#content{
+    max-width: 16000px;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+header, img{
+    width: 100%;
+}
+.city-content{
+    text-align: center;
+}
+.msg p{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.records{
+    background-color: rgb(82, 120, 182);
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
