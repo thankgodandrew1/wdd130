@@ -2,28 +2,49 @@
     max-width: 16000px;
 }
 body{
-    background-color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
+    background-color: black;
     font-size: 20px;
 }
-header, img{
+#main{
+    width: 320px;
+    height: auto;
+    margin: auto;
+}
+.image{
+    border-radius: 20px 20px 0px 0px;
     width: 100%;
 }
-.city-content{
+.content{
+    background-color: white;
     text-align: center;
+    margin-top: -35px;
 }
-.msg p{
-    width: 95%;
-    margin: 0 auto;
-    padding-bottom: 30px;
-
+.header-1{
+    margin-top: -20px;
+    
 }
-.records{
-    background-color: rgb(82, 120, 182);
+.header-5{
+    padding-top: 25px;
+    color: #5278b6;
+}
+.page-content{
+    width: 250px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+#grid{
+    background-color: #5278b6;
     color: beige;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+#views{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+#grid h6{
+    margin-top: -20px;
+    font-size: 0.7rem;
 }
