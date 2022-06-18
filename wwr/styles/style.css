@@ -172,7 +172,6 @@ nav{
 .card-img, .mountains{
     width: 100%;
     border: 10px solid #78c5d7;
-    transition: transform .5s;
     box-shadow: 5px 5px 10px #78c5d7;
 } 
 .card-img:hover {
@@ -213,6 +212,99 @@ align-items: center;
 padding: 25px 50px;
 margin-top: 200px; 
 }
+/* CSS FOR WWR SUBPAGE (RIVERS) */
+
+.rivers{
+    font-family: 'Lato', 'Rock salt', 'Impact';
+    text-align: center;
+    margin-bottom: 70px;
+    color: #435ca7;
+}
+.first-river img, .second-river img, .third-river img{
+    display: block;
+    margin: 0 auto;
+    
+} 
+.rivers-grid p{
+    margin: 0 auto;
+    font-size: .9rem;
+    font-family: 'Roboto', 'Arial', 'Tahoma';
+    padding-top: 15px;
+    margin-top: -5px;
+    text-align: left;
+}
+.rivers-grid h2{
+    text-align: left;
+    color: #435ca7;
+    font-family: 'Lato', 'Rock salt', 'Impact';
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+#baackground{
+    height: 270px;
+    background-color: #78c5d7;
+}
+.rafting-img, .rafting{
+    padding: 2px;
+    border-width: 0px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 5px; 
+    border: 10px solid #78c5d7;
+    width: 100%;
+    border: 10px solid #78c5d7; 
+}
+.rivers-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.third-river-msg h2{
+    text-align: center;
+}
+
+.first-river{
+    grid-column: 2/6;
+    grid-row: 2/3;
+    transform: rotate(2.6deg);
+}
+.first-river-msg{
+    grid-column: 7/12;
+    grid-row: 2/3;
+    margin-top: -55px;
+    margin-bottom: 40px;
+    margin-left: -30px;
+    margin-right: -40px;
+}
+.second-river-msg{
+    grid-column: 2/8;
+    grid-row: 4/7;
+}
+.second-river{
+    grid-column: 8/12;
+    grid-row: 5/7;
+    border: 10px solid #435ca7;
+    transform: rotate(-2.5deg);
+
+}
+#baackground{
+    grid-column: 1/13;
+    grid-row: 4/9;
+    box-shadow: 5px 5px 10px #435ca7;
+}
+.third-river-msg{
+    grid-column: 2/12;
+    grid-row: 9/10;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.third-river{
+    grid-column: 3/11;
+    grid-row: 12/13;
+    transform: rotate(2.5deg);
+
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
