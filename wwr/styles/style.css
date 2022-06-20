@@ -220,7 +220,6 @@ hero-msg h1, #hero-msg h4 {
     justify-self: stretch;
     text-align: center;
 }
-
 .rivers h1 {
     display: block;
     font-size: 2em;
@@ -230,8 +229,12 @@ hero-msg h1, #hero-msg h4 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-
-
+.rivers-grid h2{
+    font-family: 'Lato', 'Impact', 'Rock Salt';
+}
+.rivers-grid p{
+    font-family: 'Roboto, 'Arial', 'Tahoma';
+}
 .rivers-grid{
     display: block;
     line-height: 1.5em;
