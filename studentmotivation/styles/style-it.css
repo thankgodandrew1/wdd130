@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Lato:wght@300&family=Open+Sans&family=PT+Sans:ital@1&family=Roboto:ital,wght@1,300&family=Rock+Salt&display=swap');
+
+/* Website Content */
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+main section{
+    text-align: center;
+}
+body {
+    font-family: "Joan", "Roboto", "Rock Salt";
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5rem;
+    padding: 0;
+    background: #ECC19C;
+    color: #232523;    
+}
+main section img{
+    box-sizing: border-box;
+}
+header, main{
+    margin: 0px 12px;
+    display: block;
+}
+.hero-msg{
+    display:block;
+}
+ .logo{
+    width: 80%;
+    margin-left: 15px;
+    margin-right: 120px;
+    margin-top: -20px;
+    margin-bottom: -40px;
+    border-radius: 10px;
+}
+header{
+    border-radius: 5px;
+    margin-top: 40px ;
+    margin-bottom: 20px;
+    background-color: #12A4D9;
+    display: grid;
+    grid-template-columns: 150px auto;
+} 
+
+/* Navigations */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #ECC19C;
+    color: #fdfff5;
+}
+/* Hero display */
+#hero-img{
+    width: 100%;
+}
+#hero{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: -30px;
+    margin: -21px 12px;
+
+}
+#hero-box{
+    grid-column: 1/6;
+    grid-row: 1/4;
+    width: 100%;
+    z-index: -1; /*moves layers back and forward in the z axis*/
+}
+.banner-overlay{
+    grid-column: 2/3;
+    grid-row:2/2 ;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -50px;
+    border-radius:5%;
+    outline:15px solid #ECC19C;
+}
+#hero-msg{
+    grid-column: 3/6;
+    grid-row: 2/3;
+    margin-left: 15px;
+    margin-top: -20px;
+    font-family: "Joan", "Roboto", "Rock Salt";
+    color: #ffffff;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+.main-img{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 2/6;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px #ECC19C;
+    border: 3px solid #F3CA20;
+    margin: 60px;
+}
+.msg{
+    grid-column:  6/11;
+    grid-row: 3/5;
+    color: white;
+    background-color: #12A4D9;
+}
+.msg h1{
+    color: white;
+}
+.msg1{
+    grid-column: 2/11;
+    grid-row: 7/9;
+    margin-top: 5px;
+    color: white;    
+}
+.msg1 h1{ 
+    color: #ffffff;
+}
+.msg1 p{
+    color: #000000;
+}
+/* blog button decoration and hover */
+.blog-button{
+    background-color: #F3CA20;
+    font-family: Roboto;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 3px 10px;
+    margin-top: 50px;
+    text-decoration: none
+
+}
+.blog-button:hover{
+    background-color: #12A4D9;
+    color: #000000;
+}
+/* footer for home page, blog, and faq*/
+footer{
+    background-color: #12A4D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 50px;
+    margin-top: 50px; 
+}
+footer h3{
+    color: #ffffff;
+    font-family: "Joan", "Roboto", "Rock Salt";
+}
+footer h3 a:hover{
+    background-color: #ECC19C;
+    color: #ffffff;
+    text-decoration: underline;  
+    /* padding: 5px;  */
+}
+footer .social img{
+    padding-top: 12px;
+    justify-content: space-around;
+}
+footer a{ 
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none    
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin: 0;
+    }
+    .main-img{
+        margin: 8px;
+    }
+
+    .banner-overlay{
+        outline: none;
+        margin: 2px;
+    }
+
+    
+
+
+}
