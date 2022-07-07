@@ -129,6 +129,7 @@ nav a:hover {
 }
 /* blog button decoration and hover */
 .blog-button{
+    outline:1px solid white;
     background-color: #F3CA20;
     font-family: Roboto;
     font-size: 18px;
@@ -142,6 +143,7 @@ nav a:hover {
 .blog-button:hover{
     background-color: #12A4D9;
     color: #000000;
+    outline: none;
 }
 /* footer for home page, blog, and faq*/
 footer{
@@ -170,6 +172,11 @@ footer a{
     text-align: center;
     color: #ffffff;
     text-decoration: none    
+}
+/* CSS FOR OUR FUTURE CHILD PAGE (BLOG) */
+.blog-grid{
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
