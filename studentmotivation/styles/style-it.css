@@ -134,7 +134,7 @@ nav a:hover {
 .blog-button{
     outline:1px solid white;
     background-color: #F3CA20;
-    font-family: "Rock Salt";
+    font-family: 'Rock Salt';
     font-size: 18px;
     border-radius: 5px;
     color: #ffffff;
@@ -315,8 +315,12 @@ footer a{
         display: block;
     }
     .blog-msg{
-        margin: 0px 20px;
+        margin: 0 auto;
     }
-
+}
+@media screen and (max-width: 500px) {
+    #third-grid{
+        display: block;
+    }
 
 }
