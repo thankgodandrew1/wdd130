@@ -272,7 +272,7 @@ footer a{
 .share-button{
     outline:2px solid white;
     background-color: #F3CA20;
-    font-family: 'Joan' 'Roboto';
+    font-family: 'Joan', 'Roboto', 'Rock Salt';
     font-size: 18px;
     border-radius: 5px;
     color: #ffffff;
@@ -314,10 +314,9 @@ footer a{
     #first-grid, #second-grid{
         display: block;
     }
-}
-@media screen and (max-width: 500px) {
-    #third-grid{
-        display: block;
+    .blog-msg{
+        margin: 0px 20px;
     }
+
 
 }
