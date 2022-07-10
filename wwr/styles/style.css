@@ -64,7 +64,6 @@ main section img{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -105,7 +104,7 @@ h4{
 }
 #logo_link{
     padding-top: 5px;
-    justify-self: center;
+    justify-self: center;   
     align-self: center;
 }
 

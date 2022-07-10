@@ -24,7 +24,7 @@ header, main{
     margin: 0px 12px;
     display: block;
 }
-.hero-msg{
+#hero-msg{
     display:block;
 }
  .logo{
@@ -43,6 +43,10 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
 } 
+.banner-overlay:hover {
+    opacity: .7;
+    transform: scale(1.01);
+    }    
 
 /* Navigations */
 nav{
@@ -88,8 +92,7 @@ nav a:hover {
 #hero-msg{
     grid-column: 3/6;
     grid-row: 2/3;
-    margin-left: 15px;
-    margin-top: -20px;
+    margin: -30px 40px;
     font-family: "Joan", "Roboto", "Rock Salt";
     color: #ffffff;
 }
@@ -173,11 +176,118 @@ footer a{
     color: #ffffff;
     text-decoration: none    
 }
+/* img {  display: block; margin: 0 auto; width: 400px; height: 400px;} */
+
 /* CSS FOR OUR FUTURE CHILD PAGE (BLOG) */
-.blog-grid{
-    display:grid;
-    grid-template-columns: repeat(9, 1fr);
+#first-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
+.team-img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    border-radius: 10px;
+    border: 3px solid #F3CA20;
+    box-shadow: 5px 5px 10px #232523;
+
+}
+.team-img:hover {
+    opacity: .7;
+    transform: scale(1.01);
+    }    
+
+.blog-msg{
+    width: 95%;
+    height: 98%;
+    background-color: #12A4D9;
+    color: white;
+    grid-column: 3/7;
+    grid-row: 1/4;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px #232523;
+    border-radius: 5px;
+
+}
+#second-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);    
+}
+.img2{
+    display: block;
+    margin-top: 40px;
+    width: 95%;
+    height: 370px;
+    grid-column: 4/7;
+    grid-row: 4/7;
+    border-radius: 10px;
+    border: 5px solid #F3CA20;
+    box-shadow: 5px 5px 10px #232523;
+}
+.img2:hover {
+    opacity: .7;
+    transform: scale(1.01);
+    }    
+.blog-msg1{
+    margin-top: 35px;
+    grid-column: 1/4;
+    grid-row: 4/7;
+}
+.blog-msg1 h1{
+    color: white;
+    font-family: "Open Sans", "Lato", "Times New Roman";
+}
+.blog-msg1 p{
+    font-family: "Joan", "Rock Salt", "Roboto";
+}
+#third-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.img3{
+    border-radius: 10px;
+    width: 98%;
+    height: 300px;
+    grid-column: 1/7;
+    grid-row: 8/10;
+    margin: 20px 0px;
+} 
+.blog-msg2{
+    grid-column: 2/6;
+    grid-row: 8/9;
+    margin-top: 30px;
+    font-size: 2.5ex;
+}
+.blog-msg2 h1{
+    color: #12A4D9;
+}
+.blog-msg2 p{
+    color: #ffffff
+}
+/* blog button decoration and hover */
+.share-button{
+    outline:2px solid white;
+    background-color: #F3CA20;
+    font-family: 'Joan' 'Roboto';
+    font-size: 18px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-top: 70px;
+    text-decoration: none
+
+}
+.share-button:hover{
+    background-color: #12A4D9;
+    color: #000000;
+    outline: none;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -196,10 +306,18 @@ footer a{
 
     .banner-overlay{
         outline: none;
-        margin: 2px;
+        margin: 10px 2px;
     }
-
-    
-
+    #hero-msg{
+        margin: 20px 12px;
+    }
+    #first-grid, #second-grid{
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+    #third-grid{
+        display: block;
+    }
 
 }
