@@ -134,7 +134,7 @@ nav a:hover {
 .blog-button{
     outline:1px solid white;
     background-color: #F3CA20;
-    font-family: Roboto;
+    font-family: "Rock Salt";
     font-size: 18px;
     border-radius: 5px;
     color: #ffffff;
@@ -272,7 +272,7 @@ footer a{
 .share-button{
     outline:2px solid white;
     background-color: #F3CA20;
-    font-family: 'Joan', 'Roboto', 'Rock Salt';
+    font-family: 'Rock Salt';
     font-size: 18px;
     border-radius: 5px;
     color: #ffffff;
