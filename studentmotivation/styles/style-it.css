@@ -289,6 +289,76 @@ footer a{
     outline: none;
 }
 
+/* CSS FOR OUR FUTURE CHILD PAGE (FAQ) */
+.faq-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.faq{
+    grid-column: 1/7;
+    grid-row: 2/3
+}
+.faq-img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+   box-shadow: 5px 5px 10px  black;
+    border-radius: 10px;
+    border: 5px solid #F3CA20;
+    
+}
+.faq-img:hover {
+    opacity: .7;
+    transform: scale(1.01);
+    transform: rotate(0.2deg);
+}
+.faq h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Joan', 'Rock Salt', 'Open Sans';
+    color: #12A4D9;
+} 
+.faq-msg{
+    grid-column: 1/7;
+    grid-row: 4/5;
+    margin-top: 30px;
+    text-align: left;
+}
+.faq-msg h1{
+    font-family: 'Joan', 'Rock Salt', 'Open Sans';
+    color: #12A4D9;
+}
+.faq-msg dt{
+    background-color: #12A4D9;
+}
+.faq-msg dd{
+    background-color: #F3CA20;
+}
+.faq-msg2{
+    grid-column: 1/7;
+    grid-row: 6/7;
+}
+.faq-msg2 img{
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    box-shadow: 5px 5px 10px  black;
+    border-radius: 10px;
+    border: 5px solid #F3CA20;
+     
+}
+.faq-msg2 img:hover {
+    opacity: .7;
+    transform: scale(1.01);
+    transform: rotate(0.2deg);
+}
+.faq-msg2 h1{
+    margin-top: 40px;
+    color: #12A4D9;
+    text-align: center;
+    font-family: 'Joan', 'Rock Salt', 'Open Sans';
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
