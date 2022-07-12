@@ -219,7 +219,8 @@ footer a{
 }
 .img2{
     display: block;
-    margin-top: 40px;
+    margin-top: 70px;
+    margin-left: 10px;
     width: 95%;
     height: 370px;
     grid-column: 4/7;
@@ -233,7 +234,7 @@ footer a{
     transform: scale(1.01);
     }    
 .blog-msg1{
-    margin-top: 35px;
+    margin-top: 70px;
     grid-column: 1/4;
     grid-row: 4/7;
 }
@@ -245,6 +246,7 @@ footer a{
     font-family: "Joan", "Rock Salt", "Roboto";
 }
 #third-grid{
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
