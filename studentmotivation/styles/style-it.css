@@ -256,13 +256,12 @@ footer a{
     height: 300px;
     grid-column: 1/7;
     grid-row: 8/10;
-    margin: 20px 0px;
 } 
 .blog-msg2{
     grid-column: 2/6;
     grid-row: 8/9;
-    margin-top: 30px;
-    font-size: 2.5ex;
+    margin-top: 10px;
+    font-size: 2ex;
 }
 .blog-msg2 h1{
     color: #12A4D9;
@@ -275,11 +274,11 @@ footer a{
     outline:2px solid white;
     background-color: #F3CA20;
     font-family: 'Rock Salt';
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 5px;
     color: #ffffff;
-    padding: 5px 10px;
-    margin-top: 70px;
+    padding: 3px 5px;
+    margin-top: 30px;
     text-decoration: none
 
 }
@@ -462,9 +461,12 @@ button{
     .blog-msg{
         margin: 0 auto;
     }
+    #third-grid {
+        display: block;
+    }
 }
 @media screen and (max-width: 500px) {
-    #third-grid{
+    #third-grid {
         display: block;
     }
 
