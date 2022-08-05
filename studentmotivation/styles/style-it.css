@@ -131,7 +131,7 @@ nav a:hover {
 }
 .msg1 p{
     color: #000000;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
 }
 /* blog button decoration and hover */
 .blog-button{
@@ -274,7 +274,7 @@ footer a{
 .blog-msg2 p{
     font-family: "Joan", "Rock Salt", "Roboto";
     color: #ffffff;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
 }
 /* blog button decoration and hover */
 .share-button{
