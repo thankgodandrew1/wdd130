@@ -109,10 +109,9 @@ nav a:hover {
     margin: 60px;
 }
 .msg{
-    margin-top: 20px;
     display: block;
     width: 100%;
-    grid-column:  6/11;
+    grid-column: 6/11;
     grid-row: 3/5;
     color: white;
     background-color: #12A4D9;
@@ -132,6 +131,7 @@ nav a:hover {
 }
 .msg1 p{
     color: #000000;
+    margin-bottom: 8px;
 }
 /* blog button decoration and hover */
 .blog-button{
@@ -141,9 +141,8 @@ nav a:hover {
     font-size: 18px;
     border-radius: 5px;
     color: #ffffff;
-    padding: 0px 11px;
+    padding: 3px 11px;
     text-decoration: none
-
 }
 .blog-button:hover{
     background-color: #12A4D9;
@@ -274,7 +273,8 @@ footer a{
 }
 .blog-msg2 p{
     font-family: "Joan", "Rock Salt", "Roboto";
-    color: #ffffff
+    color: #ffffff;
+    margin-bottom: 4px;
 }
 /* blog button decoration and hover */
 .share-button{
@@ -284,7 +284,7 @@ footer a{
     font-size: 100%;
     border-radius: 5px;
     color: #ffffff;
-    padding: 0px 7px;
+    padding: 3px 7px;
     text-decoration: none
 
 }
