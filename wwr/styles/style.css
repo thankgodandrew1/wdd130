@@ -32,7 +32,6 @@ main section img{
     background-color: #435ca7;
     line-height: 1.5em;
     padding: 35px;
-    padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #78c5d7;
@@ -130,7 +129,6 @@ nav a:hover {
 }
 .book, .join{
     background-color: #78c5d7;
-    color: #435ca7;
     font-family: Roboto;
     font-size: 18px;
     border-radius: 5px;

@@ -134,17 +134,18 @@ nav a:hover {
     margin-bottom: 13px;
 }
 /* blog button decoration and hover */
-.blog-button{
+.blog-button, .share-button{
     outline:1px solid white;
     background-color: #F3CA20;
+    color: #ffffff;
     font-family: 'Rock Salt';
     font-size: 18px;
     border-radius: 5px;
-    color: #ffffff;
+    margin-top: 50px;
     padding: 3px 11px;
     text-decoration: none
 }
-.blog-button:hover{
+.blog-button:hover, .share-button:hover{
     background-color: #12A4D9;
     color: #000000;
     outline: none;
@@ -155,7 +156,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 50px;
+    padding: 15px 30px;
     margin-top: 50px;
 }
 footer h3{
@@ -238,6 +239,7 @@ footer a{
     margin-top: 70px;
     grid-column: 1/4;
     grid-row: 4/7;
+    max-height: 420px; 
 }
 .blog-msg1 h1{
     color: white;
@@ -276,24 +278,6 @@ footer a{
     color: #ffffff;
     margin-bottom: 7px;
 }
-/* blog button decoration and hover */
-.share-button{
-    outline:2px solid white;
-    background-color: #F3CA20;
-    font-family: 'Rock Salt';
-    font-size: 100%;
-    border-radius: 5px;
-    color: #ffffff;
-    padding: 3px 7px;
-    text-decoration: none
-
-}
-.share-button:hover{
-    background-color: #12A4D9;
-    color: #000000;
-    outline: none;
-}
-
 /* CSS FOR OUR FUTURE CHILD PAGE (FAQ) */
 .faq-grid{
     display: grid;
