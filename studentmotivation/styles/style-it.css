@@ -133,18 +133,18 @@ nav a:hover {
 }
 .msg1 p{
     color: #000000;
-    margin-bottom: 13px;
+    padding-bottom: 15px;
 }
 /* blog button decoration and hover */
 .blog-button, .share-button{
+    margin-top: 50px;
     outline:1px solid white;
     background-color: #F3CA20;
     color: #ffffff;
     font-family: 'Rock Salt';
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 5px;
-    margin-top: 50px;
-    padding: 3px 11px;
+    padding: 10px 20px;
     text-decoration: none
 }
 .blog-button:hover, .share-button:hover{
@@ -280,7 +280,7 @@ footer a{
 .blog-msg2 p{
     font-family: "Joan", "Rock Salt", "Roboto";
     color: #ffffff;
-    margin-bottom: 7px;
+    padding-bottom: 13px;
 }
 /* CSS FOR OUR FUTURE CHILD PAGE (FAQ) */
 .faq-grid{
