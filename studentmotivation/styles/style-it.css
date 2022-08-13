@@ -125,6 +125,8 @@ nav a:hover {
     grid-column: 2/11;
     grid-row: 7/9;
     color: white;
+    padding: 35px;
+    line-height: 1.5em;
 }
 .msg1 h1{
     color: #ffffff;
@@ -268,6 +270,8 @@ footer a{
     grid-row: 8/10;
     margin-top: 10px;
     font-size: 100%;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .blog-msg2 h1{
     color: #12A4D9;
